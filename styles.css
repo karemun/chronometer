@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(images/time.jpg) no-repeat center center/ cover;
+}
+
+.main-container {
+    width: 80vw;
+    max-width: 600px;
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.767);
+}
+
+.btn-container {
+    padding: 20px;
+}
+
+#chronometer {
+    width: 100%;
+    font-size: 80px;
+    font-weight: bold;
+    user-select: none;
+    font-family: "Noto Sans Thai", sans-serif;
+}
+
+.btn {
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#btn-start-pause.start,
+#btn-start-pause.start i {
+    background-color: #4ff14f;
+}
+
+#btn-start-pause.pause,
+#btn-start-pause.pause i {
+    background-color: #f0d948;
+}
+
+#btn-restart {
+    background-color: rgb(241, 77, 77);
+}
